@@ -1,3 +1,3 @@
-CONFIG_NAME ?= ex02nrf5_nrf52dk
+CONFIG_NAME ?= myprj01_nrf52840dk
 
 include makefile.mk

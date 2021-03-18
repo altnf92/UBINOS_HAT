@@ -8,7 +8,7 @@
 	@echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 	@echo ""
 	@echo ""
-	make -f makefile.mk $@ CONFIG_NAME=ex02nrf5_nrf52dk
+	make -f makefile.mk $@ CONFIG_NAME=myprj01_nrf52dk
 	@echo ""
 	@echo ""
 
@@ -16,7 +16,7 @@
 	@echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
 	@echo ""
 	@echo ""
-	make -f makefile.mk $@ CONFIG_NAME=ex02nrf5_nrf52840dk
+	make -f makefile.mk $@ CONFIG_NAME=myprj01_nrf52840dk
 	@echo ""
 	@echo ""
 
