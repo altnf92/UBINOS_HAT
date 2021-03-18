@@ -7,6 +7,10 @@ After specifying the initial current, if the current rises by a constant step in
 
 It also detects a current change of more than a certain number of staff or a consumer electronics off while the appliance is on and sends a message to the user.
 
+
+
 HAT_main.c      : main (case based)
+
 TMR_PPI_SAADC.c : PPI with timer and ADC. Current measurement routine.
+
 LAP_main.c      : Interface lvl BLE code. Snd & rcv user msg part.
